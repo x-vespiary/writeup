@@ -1,5 +1,7 @@
 # A Payload to rule them all [web]
 
+written by Ark
+
 - Score: 171
 - Solves: 65
 
