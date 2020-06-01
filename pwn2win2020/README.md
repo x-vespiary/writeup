@@ -6,5 +6,5 @@
 ## Challenges
 
 - A Payload to rule them all [web]: solved by Ark -> [writeup](payload.md)
-- Androids Encryption [crypto]: solved by Xornet
+- Androids Encryption [crypto]: solved by Xornet -> [writeup](androids_encryption/androids_encryption.md)
 - Transcendence Rebellion [bonus]: solved by minami
