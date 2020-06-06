@@ -1,5 +1,4 @@
 import socket
-import networkx as nx
 import parse
 import sys
 
