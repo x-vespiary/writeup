@@ -30,6 +30,7 @@
 ### Web Exploitation
 
 - [Blurry Eyes](blurry-eyes/README.md)
+- [Debt Simulator](debt-simulator/README.md)
 
 ### Miscellaneous
 
