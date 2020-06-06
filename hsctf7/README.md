@@ -16,6 +16,7 @@
 
 ### Forensics
 
+- [Comments](comments/README.md)
 - [Evil Stego](evil_stego/README.md)
 
 ### Algorithm
