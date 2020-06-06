@@ -5,6 +5,8 @@
 
 ## Challenges
 
+### Rev
+- [dis](dis/README.md)
 
 ### Crypto
 - [Smol E](smol_e.md)
