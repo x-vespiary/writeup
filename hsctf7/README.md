@@ -24,4 +24,5 @@
 
 ### Miscellaneous
 
+- [Binary Word Search](binary-word-search/README.md)
 - [Apple Pie](apple-pie/README.md)
