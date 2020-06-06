@@ -31,3 +31,4 @@
 
 - [Binary Word Search](binary-word-search/README.md)
 - [Apple Pie](apple-pie/README.md)
+- [N-95](n-95/README.md)
