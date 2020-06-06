@@ -31,6 +31,7 @@
 
 - [Blurry Eyes](blurry-eyes/README.md)
 - [Debt Simulator](debt-simulator/README.md)
+- [Broken Tokens](broken-tokens/README.md)
 
 ### Miscellaneous
 
