@@ -27,6 +27,10 @@
 - [Aliens](aliens/README.md)
 - [Holly League](holly-league/README.md)
 
+### Web Exploitation
+
+- [Blurry Eyes](blurry-eyes/README.md)
+
 ### Miscellaneous
 
 - [Binary Word Search](binary-word-search/README.md)
