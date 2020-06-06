@@ -3,7 +3,7 @@
 ## Writeup
 
 In this challenge, we are given the file named "[disas](disas)". This file is disassembled code of pyc (maybe using "dis" module). I know the decompiler for pyc to python code(.py), so at first I searched assembler and aim to decompile assembled code.  
-But I couldn't find such tools. And at some writeups of pyc challenges, they decompiled it by hand. So I decided to decompile by hand too, and I refer to [this page](https://docs.python.org/3/library/dis.html#python-bytecode-instructions) for decompilation.
+But I couldn't find such tools. And at some writeups of pyc challenges, they decompiled it by hand. So I decided to decompile by hand too and referd to [this page](https://docs.python.org/3/library/dis.html#python-bytecode-instructions) for decompilation.
 
 ### pyc
 
@@ -26,7 +26,7 @@ In "[disas](disas)", generator `b` uses this.
 ### decompilation
 
 Result of decompilation is [here](decompile.py).  
-In this code, input string is assigned to `s` and `s` is compared to `o` (`= b'\xae\xc0\xa1\xab\xef\x15\xd8\xca\x18\xc6\xab\x17\x93\xa8\x11\xd7\x18\x15\xd7\x17\xbd\x9a\xc0\xe9\x93\x11\xa7\x04\xa1\x1c\x1c\xed'`).  
+In this code, input string is assigned to `s` and `e(s)` is compared to `o` (`= b'\xae\xc0\xa1\xab\xef\x15\xd8\xca\x18\xc6\xab\x17\x93\xa8\x11\xd7\x18\x15\xd7\x17\xbd\x9a\xc0\xe9\x93\x11\xa7\x04\xa1\x1c\x1c\xed'`).  
 At function `e`, `o[i] = b(a(s), c(s))[i]`. So I wrote the [code](exploit.py) making dictionary that maps bytes in `o` to printable charactors.  
 Finaly, I concatenated charactors and got the flag!!.
 
@@ -40,4 +40,4 @@ Finaly, I concatenated charactors and got the flag!!.
 
 ## Resource
 
-- <https://docs.python.org/3/library/dis.html#python-bytecode-instructions
+- <https://docs.python.org/3/library/dis.html#python-bytecode-instructions>
