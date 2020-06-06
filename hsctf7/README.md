@@ -22,6 +22,8 @@
 
 ### Algorithm
 
+- [Pythagorean Tree Fractal 1](pythagorean-tree-fractal1/README.md)
+- [Pythagorean Tree Fractal 2](pythagorean-tree-fractal2/README.md)
 - [Aliens](aliens/README.md)
 - [Holly League](holly-league/README.md)
 
