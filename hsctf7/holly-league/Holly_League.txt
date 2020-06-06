@@ -1,0 +1,26 @@
+There is a group of c coveted colleges called the Holly League. They all have one last coveted spot each for the incoming class of 2050. Coincidentally, there are each considering the same c high school seniors who have applied for this league. Each college has the students ranked based on compatibility, and each of the students has also ranked the Holly League colleges ranked in their own order of preference. As collective administrations officer, your job is to pair each student to a college so that there exists no student that would rather be matched with a college than the one he gets on the roster while that same college wants that particular student more than the other student it is matched with on the roster as well. (I.e., you can't have John want University A more than University B which he is assigned to while University A wants John more than Bob who it is assigned to.) Assuming the students get the best possible college they can get with these restrictions, for each of the following test cases, find the student that is paired to the specified college.
+
+
+Input Format:
+The first line contains the number of Holly League Colleges (n) and the index of the college for which we want the paired student separated by a space. n will be less than or equal to 500.
+
+
+The next n lines contain the college preference lists for each of the n students (from College 0 to College n - 1) in order of decreasing preference. The first student on a college’s preference list is the highest-ranked.
+
+
+The following n lines contain the student preference lists for each of the n colleges (from Student 0 to Student n-1) in order of decreasing preference. The first college on a student’s preference list is the highest-ranked.
+
+
+The last n lines contain the names of the students from Student 0 to Student n - 1.
+
+Eg:
+3 1
+1 2 0
+2 0 1
+0 1 2
+1 0 2
+2 1 0
+0 2 1
+Alpha
+Beta
+Gamma
