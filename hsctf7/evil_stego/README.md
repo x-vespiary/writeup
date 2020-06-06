@@ -4,7 +4,7 @@
 
 At first, I try extracting informations from [out.png](out.png) by LSB Steganography (I used the tool "Aoisora wo miagereba soko ni siroi neko" made by Japanese). The results shows [github link](https://github.com/evil-steganography/evil-stego-1) to steganography code are embed to top red pixel.
 
-![link_to_github](img/attach1.png)
+![link_to_github](img/attach1.PNG)
 
 In this repo, there is steganography [code](main.py) that mey be used by this challenge.
 
