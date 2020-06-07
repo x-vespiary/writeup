@@ -26,6 +26,7 @@
 - [Pythagorean Tree Fractal 2](pythagorean-tree-fractal2/README.md)
 - [Aliens](aliens/README.md)
 - [Holly League](holly-league/README.md)
+- [Traffic Lights A](traffic-lights-a/README.md)
 
 ### Web Exploitation
 
