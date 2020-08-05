@@ -3,3 +3,7 @@
 - CTFtime: <https://ctftime.org/event/981>
 
 ## Challenges
+
+### Forensics
+
+- [Investigation](investigation/README.md)
