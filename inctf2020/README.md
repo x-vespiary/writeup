@@ -9,3 +9,4 @@
 - [Investigation](investigation/README.md)
 - [LOGarithm](LOGarithm/README.md)
 - [Lookout Foxy](Lookout_Foxy/README.md)
+- [Investigation Continues](investigation_continues/README.md)
