@@ -7,3 +7,4 @@
 ### Forensics
 
 - [Investigation](investigation/README.md)
+- [LOGarithm](LOGarithm/README.md)
