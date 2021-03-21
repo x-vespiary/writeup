@@ -5,5 +5,5 @@
 </div>
 
 ## Naming convention
-
-Contest Folder: `MM-ctfname`. `ctfname` is lowercase and leave out `ctf` and `YYYY`.
+- Contest folder: `MM-ctfname`. `ctfname` is lowercase and leave out `ctf` and `YYYY`.
+- Writeup markdown file or folder: `genre-challengename`. `genre` is, for example, `rev`, `pwn`, `web`, `crypto`, etc.
