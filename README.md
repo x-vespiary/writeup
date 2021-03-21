@@ -1,1 +1,9 @@
-# writeup
+# ./Vespiary CTF Writeups
+
+<div align="center">
+<img src="https://gyazo.com/62dff82a980619a91f7a44f42b2ddfa5/thumb/1000" alt="属性">
+</div>
+
+## Naming convention
+
+Contest Folder: `MM-ctfname`. `ctfname` is lowercase and leave out `ctf` and `YYYY`.
