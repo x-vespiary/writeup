@@ -36,7 +36,7 @@ This API provides a redirect to `app.config.get('BASE_URL') + request.args.get('
 
 Then, if we send `http://34.84.72.167/login?redirect=@evil.example.com` to the bot, the redirect url is `http://{APP_HOST}@evil.example.com`. So, we can make the bot redirect to an arbitary URL because `{APP_HOST}` is interpreted as a user name in the URL.
 
-## Step 2. Specify the flag with `window.opener`
+### Step 2. Specify the flag with `window.opener`
 
 A part of `crawler.js` is as follows:
 ```javascript
