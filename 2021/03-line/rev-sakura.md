@@ -65,7 +65,6 @@ Today's question is
 
 First, we operate the app and then find the following.
  - The `Oracle response` we get in the `Finalize` choice is the opposite of the input of the `Bet` choice. It seems good if these are the same value.
- - Betすると2つのアカウントの残高が減る。キャンセルすると戻る。
  - The `Bet` choice reduces the balance of the accounts. If we cancel, it returns.
  - We can only enter a choice up to five times.
  - If proper input and proper order are not followed, transactions revert.
