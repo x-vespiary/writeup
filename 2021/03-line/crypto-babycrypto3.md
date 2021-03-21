@@ -19,7 +19,7 @@ p78 factor: 10924905766294738114847052652759625552798859888789113222409252979947
 elapsed time 00:01:27
 ```
 
-```
+```py
 from Crypto.PublicKey import RSA
 from Crypto.Util.number import long_to_bytes, bytes_to_long
 
@@ -36,7 +36,7 @@ with open('ciphertext.txt', 'rb') as f:
     print(long_to_bytes(m))
 ```
 
-```
+```sh
 ❯ python a.py
 b'\x02`g\xff\x85\x1e\xcd\xcba\xe5\x0b\x83\xa5\x15\xe3\x00Q0xPU0lORyBUSEUgRElTVEFOQ0UuCg==\n'
 

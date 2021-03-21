@@ -1,32 +1,34 @@
 # LINE CTF 2021 - Reversing - Sakura
 
-### TL;DR
+## TL;DR
  - Some Solidity smart contracts and the CLI application (webpacked) to manipulate them are given.
  - The flag is output when the state of multiple accounts is badly transitioned.
    - The state referred to here is not the `State` defined in the contract.
  - Since there are only a few possible choices in the CLI application, **fuzzing** can solve this problem.
 
-### Problem
+## Problem
 >Sakura is beautiful
 >nc 34.84.178.140 13000
 
-The given files
- - .
- - ├── contracts
- - │   ├── Contract.sol
- - │   └── openzeppelin
- - │       └── contracts
- - │           ├── access
- - │           │   └── Ownable.sol
- - │           └── utils
- - │               └── Context.sol
- - ├── (flag)
- - └── index.js
+The given files:
+```
+.
+├── contracts
+│   ├── Contract.sol
+│   └── openzeppelin
+│       └── contracts
+│           ├── access
+│           │   └── Ownable.sol
+│           └── utils
+│               └── Context.sol
+├── (flag)
+└── index.js
+```
 
-### Solution 
+## Solution 
 `Contract.sol` is the core code of the app, `index.js` is the CLI application that manipulates the contract (the bytecode of the contract is embedded). `openzeppelin` is the standard library for contracts; thus, we do not need to read it. 
 
-If we access the app with `nc` or run it locally, we get the following results and select a choice.
+We access the app with `nc` (or run it locally) and then get the following results and select a choice.
 ```txt
 ❯ nc 34.84.178.140 13000
 Loading...
