@@ -12,4 +12,4 @@
 | Crypto   | [babycrypto1](crypto-babycrypto1.md) ([Japanese](https://scrapbox.io/minaminao/LINE_CTF_2021_-_Crypto_-_babycrypto1)) |
 | Crypto   | [babycrypto2](crypto-babycrypto2.md) ([Japanese](https://scrapbox.io/minaminao/LINE_CTF_2021_-_Crypto_-_babycrypto2)) |
 | Crypto   | [babycrypto3](crypto-babycrypto3.md) ([Japanese](https://scrapbox.io/minaminao/LINE_CTF_2021_-_Crypto_-_babycrypto3)) |
-| Crypto   | babycyrpto4                                                                                                           |
+| Crypto   | [babycrypto4](crypto-babycrypto4.md)                                                                                                           |
