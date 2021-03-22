@@ -119,3 +119,7 @@ So, I prepared the following attack server:
 If a user who has a note with a flag `LINECTF{[a-z0-9-]+}` accesses `index.html`, the flag is leaked in order from the first character. This is a XS-leak attack with Cross-Origin-Opener-Policy.
 
 This attack was successful in my local environment. However, unfortunately, because the problem server was unstable, I got the flag by adjusting the sleep times and saving the search range at that point :(
+
+## Flag
+
+`LINECTF{1-kn0w-what-y0u-d0wn10ad}`
