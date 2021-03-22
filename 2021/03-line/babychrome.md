@@ -4,11 +4,11 @@
 
 Incorrect optimization is performed for the calculation of -0x80000000, which is the minimum value of 32bit signed int, and -0. (Reference: https://bugs.chromium.org/p/chromium/issues/detail?id=1126249)
 
-It seems that the optimizer always determines `v5568` of `jit_func` as `0`, and when `arr.shift ()` is executed for `arr = new Array (v5568)`, `arr.length` becomes `-1`.
+It seems that the optimizer always determines `v5568` of `jit_func` as `0`, and when `arr.shift()` is executed for `arr = new Array(v5568)`, `arr.length` becomes `-1`.
 OOB read/write is possible by using `arr`, but due to the bad type, it can mainly read and write only integers.
 We can get full OOB read / write capability by placing the Packed Double Array after `arr` and overwriting its length with OOB.
 
-Then, by placing the `Uint Array after the` Packed Double Array` and rewriting the pointer to the stored memory, AAR / AAW becomes possible.
+Then, by placing the `Uint8Array` after the Packed Double Array and rewriting the pointer to the stored memory, AAR / AAW becomes possible.
 
 Finally, create a WebAssembly module, search the address of the RWX memory from Heap, rewrite it with shellcode, and execute it.
 
