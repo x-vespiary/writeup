@@ -3,9 +3,9 @@
 | CATEGORY | CHALLENGE NAME & WRITEUP                                                                                              |
 | -------- | --------------------------------------------------------------------------------------------------------------------- |
 | Rev      | [Sakura](rev-sakura.md) ([Japanese](https://scrapbox.io/minaminao/LINE_CTF_2021_-_Reversing_-_Sakura))                |
-| Pwn      | atelier                                                                                                               |
-| Pwn      | bank                                                                                                                  |
-| Pwn      | babychrome                                                                                                            |
+| Pwn      | [atelier](atelier.md)                                                                                                 |
+| Pwn      | [bank](bank.md)                                                                                                       |
+| Pwn      | [babychrome](babychrome.md)                                                                                           |
 | Web      | Welcome                                                                                                               |
 | Web      | diveinternal                                                                                                          |
 | Web      | [Your Note](web-your-note.md)                                                                                         |
