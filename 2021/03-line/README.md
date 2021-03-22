@@ -7,7 +7,7 @@
 | Pwn      | [bank](pwn-bank.md)                                                                                                   |
 | Pwn      | [babychrome](pwn-babychrome.md)                                                                                       |
 | Web      | Welcome                                                                                                               |
-| Web      | diveinternal                                                                                                          |
+| Web      | [diveinternal](web-diveinternal.md)                                                                                   |
 | Web      | [Your Note](web-your-note.md)                                                                                         |
 | Crypto   | [babycrypto1](crypto-babycrypto1.md) ([Japanese](https://scrapbox.io/minaminao/LINE_CTF_2021_-_Crypto_-_babycrypto1)) |
 | Crypto   | [babycrypto2](crypto-babycrypto2.md) ([Japanese](https://scrapbox.io/minaminao/LINE_CTF_2021_-_Crypto_-_babycrypto2)) |
