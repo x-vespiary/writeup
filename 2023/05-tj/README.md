@@ -5,8 +5,8 @@
 | CATEGORY  | CHALLENGE NAME & WRITEUP                                 |
 | :-------- | :------------------------------------------------------- |
 | crypto    | [aluminum-isopropoxide](crypto-aluminum-isopropoxide.md) |
-| web       | [complainer](TODO.md)                                    |
+| web       | [complainer](web-complainer.md)                          |
 | rev       | [drm-2](rev-drm-2.md)                                    |
 | rev       | [ily-df](rev-ily-df.md)                                  |
-| forensics | [miniscule](TODO.md)                                     |
+| forensics | [miniscule](forensics-miniscule.md)                      |
 | pwn       | [painter](pwn-painter.md)                                |
