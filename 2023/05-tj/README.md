@@ -7,6 +7,6 @@
 | crypto    | [aluminum-isopropoxide](crypto-aluminum-isopropoxide.md) |
 | web       | [complainer](TODO.md)                                    |
 | rev       | [drm-2](rev-drm-2.md)                                    |
-| rev       | [ily-df](TODO.md)                                        |
+| rev       | [ily-df](rev-ily-df.md)                                  |
 | forensics | [miniscule](TODO.md)                                     |
-| pwn       | [painter](TODO.md)                                       |
+| pwn       | [painter](pwn-painter.md)                                |
