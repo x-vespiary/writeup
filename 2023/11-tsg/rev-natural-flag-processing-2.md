@@ -1,6 +1,6 @@
 # Natural Flag Processing 2
 
-The goal of the problem is to reverse a custom Transformer that check the flag.
+The goal of this challenge is to reverse a custom Transformer that check a flag.
 By interpreting results from the attention layer, we can incrementally determine the flag character by character.
 
 Solver Script:
